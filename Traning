@@ -1,0 +1,5 @@
+import numpy as np 
+vec1 = np.arange(1, 6)
+vec2 = np.linspace(10, 20, 5, dtype=np.float16)
+scalar_product = np.sum(vec1 * vec2)
+print (vec1)
